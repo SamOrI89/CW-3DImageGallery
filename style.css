@@ -4,6 +4,14 @@
 	background-repeat:repeat-x;
 }
 
+img:hover
+{
+	-webkit-transition: background 1.7s ease 0.3s;
+    -moz-transition: background 1.7s ease 0.3s;
+    -o-transition: background 1.7s ease 0.3s;
+    transition: background 1.7s ease 0.3s;	
+}
+
 .img1
 {
 	background:fuchsia;
