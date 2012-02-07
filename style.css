@@ -7,6 +7,7 @@
 .img1
 {
 	background:fuchsia;
+
     width: 240px;
     height: 240px;
     border: 3px solid #0f0;
@@ -22,6 +23,7 @@
 #plane-3d {
     -webkit-transform-style: preserve-3d;
 }
+
 }
 
 .img2
@@ -60,3 +62,4 @@
 	width: 600px;
 	height:100px;
 }
+
