@@ -1,6 +1,27 @@
-﻿.img1
+﻿body{
+	
+	background-image: url(http://www.dollkind.com/images/kewpiecloth.gif);
+	background-repeat:repeat-x;
+}
+
+.img1
 {
 	background:fuchsia;
+    width: 240px;
+    height: 240px;
+    border: 3px solid #0f0;
+    background: #f00;
+    -webkit-transform: rotate3d(1, 1, 1, 45deg);
+    -webkit-transform-style: flat;
+}
+ 
+.plane img {
+    -webkit-transform: translateZ(60px);
+}
+ 
+#plane-3d {
+    -webkit-transform-style: preserve-3d;
+}
 }
 
 .img2
@@ -13,12 +34,14 @@
 {
 	margin: 0 auto;
 	width: 530px;
-	background-image: url(http://www.dollkind.com/images/kewpiecloth.gif);
 	padding-right: 20px;
 }
 
+
+
 .shit 
 {
+	float:left;
 	width:200px;
 	height:100px;
 	background:fuchsia;
@@ -27,4 +50,13 @@
 .caption{
 	background: #8A2E8A;
 	color: #5C8A2E;
+}
+
+.shitright
+{
+	
+	background:aqua;	
+	float: left;
+	width: 600px;
+	height:100px;
 }
