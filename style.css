@@ -1,0 +1,24 @@
+﻿.img1
+{
+	background:fuchsia;
+}
+
+.img2
+{
+	background:aqua;
+}
+
+#wrapper
+{
+	margin: 0 auto;
+	width: 530px;
+	background-image: url(http://www.dollkind.com/images/kewpiecloth.gif);
+	padding-right: 20px;
+}
+
+.shit 
+{
+	width:200px;
+	height:100px;
+	background:fuchsia;
+}
