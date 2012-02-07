@@ -15,6 +15,7 @@ img:hover
 .img1
 {
 	background:fuchsia;
+
     width: 240px;
     height: 240px;
     border: 3px solid #0f0;
@@ -30,6 +31,7 @@ img:hover
 #plane-3d {
     -webkit-transform-style: preserve-3d;
 }
+
 }
 
 .img2
@@ -55,11 +57,17 @@ img:hover
 	background:fuchsia;
 }
 
+.caption{
+	background: #8A2E8A;
+	color: #5C8A2E;
+}
+
 .shitright
 {
 	
 	background:aqua;	
-	float left;
-	width:600px;
+	float: left;
+	width: 600px;
 	height:100px;
 }
+
