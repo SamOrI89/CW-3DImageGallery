@@ -2,9 +2,20 @@
 	
 	background-image: url(http://www.dollkind.com/images/kewpiecloth.gif);
 	background-repeat:repeat-x;
-	-webkit-perspective: 250px;
- -webkit-perspective-origin: 50% 80%;
+	bac
+	-webkit-perspective: 260px;
+    -webkit-perspective-origin: 50% 80%;
 }
+
+#bgimg
+{
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:-2;
+	margin-top:100px;
+}
+
 
 img:hover
 {
@@ -26,9 +37,23 @@ img:hover
     -webkit-transform-style: flat;
 }
 
-.img4
+.img1:hover
 {
-	-webkit-transform: Scale(40px);
+	-webkit-transform: rotate3d(1, 1, 1, 145deg);
+	-webkit-transition: -webkit-transform .7s ease 0.6s;
+    -moz-transition: -webkit-transform .7s ease 0.6s;
+    -o-transition: -webkit-transform .7s ease 0.6s;
+    transition: -webkit-transform .7s ease 0.6s;
+    -webkit-transform: ScaleY(4);
+
+    	
+}
+
+}
+
+.img2
+{
+	-webkit-transform: rotate3d(1, 1, 1, 165deg);
 	background:fuchsia;
     width: 240px;
     height: 240px;
@@ -37,9 +62,35 @@ img:hover
     -webkit-transform-style: flat;
 }
 
+.img3
+{
+	-webkit-perspective: 200;
+	-webkit-transform: ScaleY(4);
+		-webkit-transform: ScaleX(-4);
+	background:fuchsia;
+    width: 240px;
+    height: 240px;
+    border: 3px solid #0f0;
+    background: #f00;
+}
+
+
+.img4
+{
+	-webkit-transform: ScaleX(6);
+	background:fuchsia;
+    width: 240px;
+    height: 240px;
+    border: 3px solid #0f0;
+    background: #f00;
+    -webkit-transform-style: flat;
+    -webkit-transform-origin: right bottom;
+}
+
 .img5
 {
 	-webkit-transform: ScaleX(120px);
+			-webkit-transform: ScaleX(-2);
 	background:fuchsia;
     width: 240px;
     height: 240px;
@@ -50,13 +101,15 @@ img:hover
 
 .img6
 {
-	-webkit-transform: ScaleX(-140px);
+	-webkit-transform: ScaleX(-10px);
 	background:fuchsia;
     width: 240px;
     height: 240px;
     border: 3px solid #0f0;
     background: #f00;
     -webkit-transform-style: flat;
+    -webkit-transform-origin: left top;
+
 }
 
  
@@ -81,6 +134,7 @@ img:hover
 	margin: 0 auto;
 	width: 530px;
 	padding-right: 20px;
+	background-image: url('http://www.gifs.net/Animation11/Geography_and_History/Canadian_Flags/new_brunswick.gif');
 }
 
 
